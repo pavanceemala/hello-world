@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Welcome To Pandora</title>
+	<title>This is Pandora</title>
 	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<style>
 	body {
