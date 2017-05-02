@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Hello world!</title>
+	<title>Welcome To Pandora</title>
 	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<style>
 	body {
@@ -46,7 +46,7 @@
 
 	if($_ENV["DOCKERCLOUD_AUTH"]) {
 		?>
-		<h3>I have Docker Cloud API powers!</h3>
+		<h3>Enjoy the Docker cloud API power</h3>
 		<?php
 	}
 	?>
