@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>This is Pandora</title>
+	<title>Hola Pandora!!!</title>
 	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<style>
 	body {
@@ -18,7 +18,7 @@
 <body>
 	<img id="logo" src="logo.png" />
 	<h1><?php echo "Hello ".($_ENV["NAME"]?$_ENV["NAME"]:"world")."!"; ?></h1>
-	<?php if($_ENV["HOSTNAME"]) {?><h3>My hostname is <?php echo $_ENV["HOSTNAME"]; ?></h3><?php } ?>
+	<?php if($_ENV["HOSTNAME"]) {?><h3>This is my hostname is <?php echo $_ENV["HOSTNAME"]; ?></h3><?php } ?>
 	<?php
 	$links = [];
 	foreach($_ENV as $key => $value) {
